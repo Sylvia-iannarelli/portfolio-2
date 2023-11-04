@@ -5,7 +5,7 @@ import {
   faHome, faUser, faEnvelope, faSuitcase,
 } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import LogoS from '../../assets/images/Logo-S.png';
+import LogoS from '../../assets/images/Logo-S-1.svg';
 import LogoSylvia from '../../assets/images/Logo-Sylvia.png';
 
 const Sidebar = () => {
