@@ -72,3 +72,11 @@
     transform: rotateX(90deg);
   }
 }
+
+@media screen and (max-width: 900px) {
+  .stage-cube-cont {
+    position: initial;
+    width: 100%;
+    overflow: visible;
+  }
+}

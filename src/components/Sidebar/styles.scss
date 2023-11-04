@@ -128,3 +128,63 @@
     }
   }
 }
+
+.hamburger-icon,
+.close-icon {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .nav-bar {
+    background: transparent;
+    position: initial;
+    height: auto;
+    min-height: auto;
+
+    ul, nav {
+      display: none;
+    }
+
+    nav {
+      width:fit-content;
+      height: fit-content;
+      background: #181818;
+      top: 0;
+      right: 0;
+      position: fixed;
+      z-index: 2;
+      margin: 0;
+      padding-left: 20px;
+      padding-right: 40px;
+
+      &.mobile-show {
+        display: block;
+      }
+
+      a {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+      }
+
+      a:after {
+        opacity: 1;
+        position: initial;
+        width: auto;
+        margin-left: 10px;
+      }
+
+      a svg {
+        opacity: 1 !important;
+      }
+    }
+
+    .hamburger-icon,
+    .close-icon {
+      display: block;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+    }
+  }
+}
