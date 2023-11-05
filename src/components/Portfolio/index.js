@@ -33,7 +33,7 @@ const Portfolio = () => {
                     type="button"
                     className="btn"
                     onClick={() => window.open(port.url)}
-                  >Voir le projet
+                  >Voir
                   </button>
                 </div>
               </div>
