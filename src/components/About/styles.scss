@@ -75,8 +75,9 @@
 
 @media screen and (max-width: 900px) {
   .stage-cube-cont {
-    position: initial;
+    position: relative;
     width: 100%;
-    overflow: visible;
+    height: 445px;
+    margin-top: 20px;
   }
 }
