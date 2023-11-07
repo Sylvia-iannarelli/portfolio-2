@@ -46,7 +46,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Je suis à l'écoute de toute proposition d'emploi ou de stage.
+            Je suis à l'écoute de toutes propositions d'emploi ou de stage.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -78,6 +78,7 @@ const Contact = () => {
                 <li>
                   <textarea
                     placeholder="Message"
+                    type="text"
                     name="message"
                     required
                   />

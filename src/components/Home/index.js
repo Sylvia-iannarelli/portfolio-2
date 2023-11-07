@@ -21,15 +21,15 @@ const Home = () => {
       <div className="container home-page">
         <div className="text-zone">
           <h1>
-            <AnimatedLetters letterClass={letterClass} strArray={'Hi,'.split('')} idx={12} />
+            <AnimatedLetters letterClass={letterClass} strArray={'Bonjour,'.split('')} idx={12} />
             <br />
-            <AnimatedLetters letterClass={letterClass} strArray={'I\'m'.split('')} idx={15} />
+            <AnimatedLetters letterClass={letterClass} strArray={'je suis'.split('')} idx={20} />
             <img src={LogoS} alt="Logo S" />
-            <AnimatedLetters letterClass={letterClass} strArray={'ylvia'.split('')} idx={18} />
+            <AnimatedLetters letterClass={letterClass} strArray={'ylvia'.split('')} idx={27} />
             <br />
-            <AnimatedLetters letterClass={letterClass} strArray={'web developper.'.split('')} idx={23} />
+            <AnimatedLetters letterClass={letterClass} strArray={'développeuse web.'.split('')} idx={32} />
           </h1>
-          <h2>Full stack developper | PHP | Symfony | React</h2>
+          <h2>Full stack | PHP | Symfony | React</h2>
           <Link to="/contact" className="flat-button">CONTACTEZ-MOI</Link>
         </div>
         <Logo />
